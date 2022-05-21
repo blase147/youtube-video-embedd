@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  margin: auto;
+}
+
+.header {
+  background-color: grey;
+}
+
+.nav li {
+  float: left;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+h1 {}
+
+.container {}
+
+.aside {
+  clear: both;
+  float: left;
+  background-color: darkblue;
+  width: 25%;
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 100%;
+}
+
+.main {
+  background-color: orange;
+  width: 75%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  float: right;
+  display: block;
+}
+
+footer {
+  clear: both;
+  background-color: purple;
+  padding: 20px;
+}
+
+#contact {
+  float: left;
+}
+
+#copyright {
+  float: left;
+}
